@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>$(BaseNamespace).Presentation</AssemblyName>
+    <RootNamespace>$(AssemblyName)</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Custom.Application.csproj" />
+    <ProjectReference Include="..\Domain\Custom.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

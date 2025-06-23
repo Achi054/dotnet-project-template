@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sujith Acharya",
+  "classifications": [ "Clean Code", "API" ],
+  "identity": "CleanCode.API",
+  "name": "Clean code API template",
+  "shortName": "api-template",
+  "sourceName": "Custom",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
