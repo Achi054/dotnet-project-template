@@ -1,6 +1,6 @@
-# The repository contains the ASP .Net API folder and file template for clean code.
+## The repository contains the ASP .Net API folder and file template for clean code.
 
-# File Structure
+## File Structure
 - src
   - Core
     - *.Domain.csproj
