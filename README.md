@@ -1,2 +1,20 @@
-<!-- Provide an overview of what your template package does and how to get started.
-Consider previewing the README before uploading (https://learn.microsoft.com/en-us/nuget/nuget-org/package-readme-on-nuget-org#preview-your-readme). -->
+# The repository contains the ASP .Net API folder and file template for clean code.
+
+# File Structure
+- src
+  - Core
+    - *.Domain.csproj
+    - *.Application.csproj
+  - External
+    - *.Presentation.csproj
+    - *.Persistance.csproj
+  - *.API.csproj
+- test
+  - Architecture.Tests
+    - *.Design.Tests.csproj
+- .editorconfig
+- .gitignore
+- *.sln
+- Directory.build.props
+- Directory.Build.targets
+- README.md
