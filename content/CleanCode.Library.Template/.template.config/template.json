@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sujith Acharya",
+  "classifications": [ "Clean Code", "Library" ],
+  "identity": "CleanCode.Library",
+  "name": "Clean code Library template",
+  "shortName": "library-template",
+  "sourceName": "Custom",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

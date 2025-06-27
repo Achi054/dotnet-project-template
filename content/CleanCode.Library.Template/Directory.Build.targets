@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <DocumentationFile>Properties\$(AssemblyName).xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Jewelix.Design.Tests" />
+        <InternalsVisibleTo Include="$(AssemblyName).Tests" />
+    </ItemGroup>
+</Project>
