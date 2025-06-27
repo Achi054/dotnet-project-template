@@ -5,6 +5,7 @@
 *.suo
 *.user
 .vs
+!.gitignore
 
 # Build results
 [Dd]ebug/
