@@ -4,11 +4,11 @@
     <!-- The package metadata. Fill in the properties marked as TODO below -->
     <!-- Follow the instructions on https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices -->
     <PackageId>CleanCode.Templates</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Title>Clean Code Temaplates</Title>
     <Authors>Sujith Acharya</Authors>
     <Description>Defines all the clean code templates that can be used to start .Net project.</Description>
-    <PackageTags>CleanCode, API</PackageTags>
+    <PackageTags>CleanCode, API, Library</PackageTags>
     <PackageProjectUrl>https://www.nuget.org/packages/CleanCode.API.Template/</PackageProjectUrl>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
