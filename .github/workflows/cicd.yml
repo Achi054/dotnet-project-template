@@ -47,9 +47,11 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Extract version from tag
+      - name: Extract version from csproj
         id: version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+        run: |
+          VERSION=$(grep -oP '<PackageVersion>\K[^<]+' CleanCode.Templates.csproj)
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Restore NuGet packages
         run: dotnet restore
