@@ -1,10 +1,10 @@
 <Project>
   <PropertyGroup>
     <!-- Base namespace -->
-    <BaseNamespace>Jewelix</BaseNamespace>
+    <BaseNamespace>Custom</BaseNamespace>
 
     <!-- Build properties -->
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     
@@ -12,6 +12,6 @@
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <NoWarn>1701;1702;1591;NU5104;NU5105</NoWarn>
+    <NoWarn>1701;1702;1591;NU5104;NU5105;CA1515</NoWarn>
   </PropertyGroup>
 </Project>

@@ -1,4 +1,4 @@
-using Custom.Persistence;
+using Custom.Infrastructure;
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -13,13 +13,13 @@ var connectionString = builder.Configuration.GetConnectionString("Database");
 
 builder.Services.AddDbContext<ApplicationDbContext>((sp, optionBuilder) =>
 {
-    optionBuilder.UseSqlServer(connectionString);
+	optionBuilder.UseSqlServer(connectionString);
 });
 
 // Add services to the container.
 builder.Services
-    .AddControllers()
-    .AddApplicationPart(Custom.Presentation.AssemblyReference.Assembly);
+	.AddControllers()
+	.AddApplicationPart(Custom.API.AssemblyReference.Assembly);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -30,8 +30,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+	app.UseSwagger();
+	app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

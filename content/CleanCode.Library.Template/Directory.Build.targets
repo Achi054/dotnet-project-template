@@ -4,7 +4,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="Jewelix.Design.Tests" />
+        <InternalsVisibleTo Include="Custom.Design.Tests" />
         <InternalsVisibleTo Include="$(AssemblyName).Tests" />
     </ItemGroup>
 </Project>

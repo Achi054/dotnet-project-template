@@ -1,10 +1,10 @@
 <Project>
   <PropertyGroup>
     <!-- Base namespace -->
-    <BaseNamespace>Jewelix</BaseNamespace>
+    <BaseNamespace>Custom</BaseNamespace>
 
     <!-- Build properties -->
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     

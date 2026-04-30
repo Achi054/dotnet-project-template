@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlnFile Format="1.0">
+  <Properties>
+    <VisualStudioVersion>17.4</VisualStudioVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+  </Properties>
+  <ProjectFolders>
+    <ProjectFolder Name="src" Guid="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+    <ProjectFolder Name="test" Guid="{CBE28F5A-7DE8-4E25-BCFE-08D90BD4EACC}" />
+    <ProjectFolder Name="src\Core" Guid="{B32B2559-C996-44E0-9012-EA0A242DA1D7}" Parent="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+    <ProjectFolder Name="src\External" Guid="{017A07B9-67B5-43CB-BB43-5ACD501664E7}" Parent="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+  </ProjectFolders>
+  <Projects>
+    <Project Path="src\Domain\Custom.Domain.csproj" Guid="{172FF700-84EA-2265-AC89-E12D7E5D5FEC}" Parent="{B32B2559-C996-44E0-9012-EA0A242DA1D7}" />
+    <Project Path="src\Infrastructure\Custom.Infrastructure.csproj" Guid="{182D2002-5E17-B8DD-E32F-81E6D1B68BFD}" Parent="{017A07B9-67B5-43CB-BB43-5ACD501664E7}" />
+    <Project Path="test\Architecture.Tests\Custom.Design.Tests.csproj" Guid="{3BD378AE-3AF8-EE5A-D4E5-0D16530A4342}" Parent="{CBE28F5A-7DE8-4E25-BCFE-08D90BD4EACC}" />
+    <Project Path="src\API\Custom.API.csproj" Guid="{B83C76D7-181A-AE4A-CA50-316A60F4EB29}" Parent="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+  </Projects>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Any CPU</Platform>
+    </Configuration>
+    <Configuration>
+      <Name>Release</Name>
+      <Platform>Any CPU</Platform>
+    </Configuration>
+  </Configurations>
+  <SolutionConfiguration Guid="{EBF77D26-FE1B-4B21-A44C-7B7235031EBC}" />
+</SlnFile>

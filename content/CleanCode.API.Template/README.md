@@ -5,9 +5,7 @@ The repository contains the ASP .Net API folder and file template for clean code
 - src
   - Core
     - *.Domain.csproj
-    - *.Application.csproj
   - External
-    - *.Presentation.csproj
     - *.Persistance.csproj
   - *.API.csproj
 - test

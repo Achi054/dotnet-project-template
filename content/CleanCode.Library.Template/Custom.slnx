@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlnFile Format="1.0">
+  <Properties>
+    <VisualStudioVersion>17.4</VisualStudioVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+  </Properties>
+  <ProjectFolders>
+    <ProjectFolder Name="src" Guid="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+    <ProjectFolder Name="test" Guid="{CBE28F5A-7DE8-4E25-BCFE-08D90BD4EACC}" />
+    <ProjectFolder Name="src\Core" Guid="{B32B2559-C996-44E0-9012-EA0A242DA1D7}" Parent="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+    <ProjectFolder Name="src\External" Guid="{017A07B9-67B5-43CB-BB43-5ACD501664E7}" Parent="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+  </ProjectFolders>
+  <Projects>
+    <Project Path="src\Application\Custom.Application.csproj" Guid="{9A961D8B-E100-4468-6734-AC3F9090B241}" Parent="{B32B2559-C996-44E0-9012-EA0A242DA1D7}" />
+    <Project Path="src\Domain\Custom.Domain.csproj" Guid="{172FF700-84EA-2265-AC89-E12D7E5D5FEC}" Parent="{B32B2559-C996-44E0-9012-EA0A242DA1D7}" />
+    <Project Path="src\Infrastructure\Custom.Infrastructure.csproj" Guid="{182D2002-5E17-B8DD-E32F-81E6D1B68BFD}" Parent="{017A07B9-67B5-43CB-BB43-5ACD501664E7}" />
+    <Project Path="src\Persistence\Custom.Persistence.csproj" Guid="{14F3EF96-F6B0-25E9-AF12-E36C0ED021E7}" Parent="{017A07B9-67B5-43CB-BB43-5ACD501664E7}" />
+    <Project Path="src\Presentation\Custom.Presentation.csproj" Guid="{2287A171-6885-C4E8-F643-286EC7D16114}" Parent="{017A07B9-67B5-43CB-BB43-5ACD501664E7}" />
+    <Project Path="src\Web\Custom.API.csproj" Guid="{FCF89F7C-0685-49CE-F57C-E0BC876B5864}" Parent="{A48A4677-1FF1-47AA-97D0-ACB2382E8304}" />
+    <Project Path="test\Architecture.Tests\Custom.Design.Tests.csproj" Guid="{3BD378AE-3AF8-EE5A-D4E5-0D16530A4342}" Parent="{CBE28F5A-7DE8-4E25-BCFE-08D90BD4EACC}" />
+  </Projects>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Any CPU</Platform>
+    </Configuration>
+    <Configuration>
+      <Name>Release</Name>
+      <Platform>Any CPU</Platform>
+    </Configuration>
+  </Configurations>
+  <SolutionConfiguration Guid="{EBF77D26-FE1B-4B21-A44C-7B7235031EBC}" />
+</SlnFile>
