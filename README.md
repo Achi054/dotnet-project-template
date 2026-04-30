@@ -5,7 +5,7 @@ This .Net startup template is designed to help get start on a new project quickl
 ## Installation
 
 ```
-dotnet new install CleanCode.Templates.1.0.5.nupkg
+dotnet new install CleanCode.Templates.1.0.6.nupkg
 ```
 
 ## Usage
@@ -23,3 +23,4 @@ dotnet new api-template -n <ProjectName>
 | Package Name | Version | Description |
 | ------------ | ------- | ----------- |
 | CleanCode.Templates | 1.0.5 | .NET templates for clean code structure in API projects |
+| CleanCode.Templates | 1.0.6 | Includes CICD |
