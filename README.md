@@ -5,7 +5,7 @@
 ## 📦 Installation
 
 ```bash
-dotnet new install CleanCode.Templates.1.0.6.nupkg
+dotnet new install CleanCode.Templates.1.0.7.nupkg
 ```
 
 ## 🚀 Usage
@@ -24,3 +24,4 @@ dotnet new api-template -n <ProjectName>
 | ------------ | ------- | ----------- |
 | 📦 CleanCode.Templates | 1.0.5 | .NET templates for clean code structure in API projects |
 | 📦 CleanCode.Templates | 1.0.6 | Includes CI/CD pipeline automation 🔄 |
+| 📦 CleanCode.Templates | 1.0.7 | Support for AI tools (Skills and instructions) for dotnet |
