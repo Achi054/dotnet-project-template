@@ -2,6 +2,16 @@
 
 ✨ This .Net startup template is designed to help you get started on a new project quickly with a clean code structure.
 
+## 📦 Pack and publish
+
+```bash
+git add .
+git commit -m ".."
+git push origin
+git tag v*
+git push origin v*
+```
+
 ## 📦 Installation
 
 ```bash
