@@ -1,26 +1,26 @@
-# Clean Code Templates
+# 🎯 Clean Code Templates
 
-This .Net startup template is designed to help get start on a new project quickly with a clean code structure.
+✨ This .Net startup template is designed to help you get started on a new project quickly with a clean code structure.
 
-## Installation
+## 📦 Installation
 
-```
+```bash
 dotnet new install CleanCode.Templates.1.0.6.nupkg
 ```
 
-## Usage
+## 🚀 Usage
 
-```
+```bash
 dotnet new api-template -n <ProjectName>
 ```
 
-## Templates
+## 📋 Templates
 | Template Name | Description |
 | ------------- | ----------- |
-| [api-template](.\content\CleanCode.API.Template\README.md)  | A clean code template for .NET API projects with a structured folder layout. |
+| 🌐 [api-template](.\.\content\CleanCode.API.Template\README.md)  | A clean code template for .NET API projects with a structured folder layout. |
 
-## Package Information
+## 📚 Package Information
 | Package Name | Version | Description |
 | ------------ | ------- | ----------- |
-| CleanCode.Templates | 1.0.5 | .NET templates for clean code structure in API projects |
-| CleanCode.Templates | 1.0.6 | Includes CICD |
+| 📦 CleanCode.Templates | 1.0.5 | .NET templates for clean code structure in API projects |
+| 📦 CleanCode.Templates | 1.0.6 | Includes CI/CD pipeline automation 🔄 |
